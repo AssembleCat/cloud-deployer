@@ -34,4 +34,4 @@ def initialize_local_swarm() -> None:
     로컬 도커 스웜 초기화
     """
     subprocess.run(["docker", "swarm", "init"])
-    print("Local docker swarm initialize success")
+    print("Local docker swarm initialize success.")
